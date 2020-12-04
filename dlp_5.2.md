@@ -1,1 +1,2 @@
-# `Convnet`ni kichik `dataset` bilan `training` qilish
+## `Convnet`ni kichik `dataset` bilan `training` qilish
+Biror bir `image-classification model`ni juda kichik `data` dan foydalanib `training` qilish odatiy holdir. Agar siz `Professional context`da  `computer vision` da ishlasangiz bu holatlarga amalda yuz kelishingiz mumkin.
