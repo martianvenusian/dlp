@@ -16,7 +16,7 @@ kagglecatsanddogs/PetImages/dogs/*.jpg
 ### Train
 `$ python dlp_5.2.4_train.py`
 
-
+```
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d (Conv2D)              (None, 148, 148, 32)      896       
@@ -111,3 +111,4 @@ Epoch 29/30
 Epoch 30/30
 100/100 [==============================] - 20s 201ms/step - loss: 0.0367 - acc: 0.9885 - val_loss: 1.1217 - val_acc: 0.7100
 
+```
