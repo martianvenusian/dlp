@@ -113,3 +113,7 @@ Epoch 30/30
 100/100 [==============================] - 20s 201ms/step - loss: 0.0367 - acc: 0.9885 - val_loss: 1.1217 - val_acc: 0.7100
 
 ```
+### Result
+
+![alt text](https://github.com/martianvenusian/dlp/edit/main/images/dlp_5.2.4_1.png.jpg?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/edit/main/images/dlp_5.2.4_2.png.jpg?raw=true)
