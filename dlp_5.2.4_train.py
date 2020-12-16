@@ -41,7 +41,6 @@ from keras.preprocessing.image import ImageDataGenerator
 username = pwd.getpwuid(os.getuid())[0]
 original_dataset_dir = '/home/{}/Downloads/kagglecatsanddogs/PetImages/'.format(username)
 base_dir = '/home/{}/Downloads/cats_and_dogs_small'.format(username)
-
 train_dir = os.path.join(base_dir, 'train')
 validation_dir = os.path.join(base_dir, 'validation')
 
