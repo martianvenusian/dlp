@@ -1,25 +1,21 @@
 # dlp
 #### based on the book `Deep Learning with Python`. Author: Francois Chollet. 
 #### link for the book https://github.com/martianvenusian/books/blob/master/science_and_technology/programming/deep_learning/Deep%20Learning%20with%20Python.pdf
+
+## dlp 5
+
 #### Download kaggle cats and dogs dataset
 ##### https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_3367a.zip
 
-
-
-## dlp 5
 ##### The download cats and dogs datasets should be prepared as following:
 ```
 kagglecatsanddogs/PetImages/cats/*.jpg
 kagglecatsanddogs/PetImages/dogs/*.jpg
 ```
-
 #### Prepare training, validation, test dataset
 `$ python dlp_5.2_prepare_dataset.py`
 
-
-
-
-### Train
+### First Training
 `$ python dlp_5.2.4_train.py`
 
 ```
@@ -119,6 +115,16 @@ Epoch 30/30
 
 ```
 ### Result
-
+overfitting
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.4_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.4_2.png?raw=true)
+
+
+### Data augmentation
+`$ python dlp_5.2.5_data_augmentation.py`
+
+example for data augmentation
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.5_data_augmentation_0.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.5_data_augmentation_1.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.5_data_augmentation_2.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.5_data_augmentation_3.png?raw=true)
