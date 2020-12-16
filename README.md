@@ -1,9 +1,12 @@
 # dlp
-#### based on the book `deep learning with python`. 
+#### based on the book `Deep Learning with Python`. Author: Francois Chollet. 
 #### link for the book https://github.com/martianvenusian/books/blob/master/science_and_technology/programming/deep_learning/Deep%20Learning%20with%20Python.pdf
 #### Download kaggle cats and dogs dataset
 ##### https://download.microsoft.com/download/3/E/1/3E1C3F21-ECDB-4869-8368-6DEBA77B919F/kagglecatsanddogs_3367a.zip
 
+
+
+## dlp 5
 ##### The download cats and dogs datasets should be prepared as following:
 ```
 kagglecatsanddogs/PetImages/cats/*.jpg
