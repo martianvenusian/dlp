@@ -115,5 +115,5 @@ Epoch 30/30
 ```
 ### Result
 
-![alt text](https://github.com/martianvenusian/dlp/edit/main/images/dlp_5.2.4_1.png.jpg?raw=true)
-![alt text](https://github.com/martianvenusian/dlp/edit/main/images/dlp_5.2.4_2.png.jpg?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.4_1.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.4_2.png?raw=true)
