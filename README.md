@@ -110,7 +110,7 @@ Epoch 30/30
 100/100 [==============================] - 20s 201ms/step - loss: 0.0367 - acc: 0.9885 - val_loss: 1.1217 - val_acc: 0.7100
 
 ```
-### Result
+#### output
 overfitting
 
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.4_1.png?raw=true)
@@ -337,8 +337,11 @@ Epoch 100/100
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.2.5_data_augment_dropout_2.png?raw=true)
 
 ### Train with pretrained weights
+Training is very fast, because it only deal with two `Dense` layers - an epoch takes less than one second even on CPU
+
 `$ python dlp_5.3.1_train_with_pretrained_weights.py`
 
+```
 Found 2000 images belonging to 2 classes.
 Found 1000 images belonging to 2 classes.
 Found 1000 images belonging to 2 classes.
@@ -402,7 +405,33 @@ Epoch 29/30
 100/100 [==============================] - 1s 9ms/step - loss: 0.0875 - acc: 0.9720 - val_loss: 0.2326 - val_acc: 0.9130
 Epoch 30/30
 100/100 [==============================] - 1s 8ms/step - loss: 0.0894 - acc: 0.9735 - val_loss: 0.2328 - val_acc: 0.9100
+```
 
 #### Output
+It reached a validation accuracy of about 91%.
+We used dropout but still we got overfitting almost from the start. 
+That's because this technique doesn't use data augmentation.
+
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_2.png?raw=true)
+
+
+### Train with pretrained weights and plus data augmentation
+This technique is much slower and more expensive but allows to use data augmentation during training.
+
+`$ python dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation.py`
+
+#### Output
+
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation_1.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation_2.png?raw=true)
+
+
+### Train with pretrained weights and plus data augmentation
+This technique is much slower and more expensive but allows to use data augmentation during training.
+
+`$ python dlp_5.3.1_train_with_pretrained_weights_with_finetuning.py`
+
+#### Output
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_1.png?raw=true)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_2.png?raw=true)
