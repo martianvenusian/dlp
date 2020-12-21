@@ -5,12 +5,12 @@ from numpy.lib.histograms import histogram
 from keras.applications import VGG16
 from keras.preprocessing.image import ImageDataGenerator
 import tensorflow as tf
-# config = tf.compat.v1.ConfigProto()
-# config.gpu_options.allow_growth = True
-# sess = tf.compat.v1.Session(config=config)
-# sess.as_default()
+config = tf.compat.v1.ConfigProto()
+config.gpu_options.allow_growth = True
+sess = tf.compat.v1.Session(config=config)
+sess.as_default()
 
-os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1'
 if tf.test.gpu_device_name():
     print('GPU found')
 else:

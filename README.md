@@ -408,6 +408,7 @@ Epoch 30/30
 ```
 
 #### Output
+##### acc: 0.9735, val_cc: 0.9100
 It reached a validation accuracy of about 91%.
 We used dropout but still we got overfitting almost from the start. 
 That's because this technique doesn't use data augmentation.
@@ -422,7 +423,7 @@ This technique is much slower and more expensive but allows to use data augmenta
 `$ python dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation.py`
 
 #### Output
-
+##### acc: 0.9890, val_cc: 0.9660
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_and_data_augmentation_2.png?raw=true)
 
