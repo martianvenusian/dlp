@@ -434,5 +434,6 @@ This technique is much slower and more expensive but allows to use data augmenta
 `$ python dlp_5.3.1_train_with_pretrained_weights_with_finetuning.py`
 
 #### Output
+##### acc: 0.9860 - val_loss: 0.1408 - val_acc: 0.9680
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_2.png?raw=true)
