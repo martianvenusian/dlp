@@ -437,3 +437,88 @@ This technique is much slower and more expensive but allows to use data augmenta
 ##### acc: 0.9860 - val_loss: 0.1408 - val_acc: 0.9680
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_1.png?raw=true)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_2.png?raw=true)
+
+## dlp 5.4 Visualizing what convnets learn
+## dlp 5.4.1 Visualizing intermediate activations
+Run `dlp_5.4.1_visualizing_intermediate_activations.py`
+
+```
+$ python dlp_5.4.1_visualizing_intermediate_activations.py
+```
+
+```
+________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d (Conv2D)              (None, 148, 148, 32)      896       
+_________________________________________________________________
+max_pooling2d (MaxPooling2D) (None, 74, 74, 32)        0         
+_________________________________________________________________
+conv2d_1 (Conv2D)            (None, 72, 72, 64)        18496     
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 36, 36, 64)        0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 34, 34, 128)       73856     
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 17, 17, 128)       0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 15, 15, 128)       147584    
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 7, 7, 128)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 6272)              0         
+_________________________________________________________________
+dropout (Dropout)            (None, 6272)              0         
+_________________________________________________________________
+dense (Dense)                (None, 512)               3211776   
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 513       
+=================================================================
+Total params: 3,453,121
+Trainable params: 3,453,121
+Non-trainable params: 0
+```
+### Input image. 
+
+inpute shape: (1, 150, 150, 3)
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_1.png?raw=true)
+
+### Extract feature maps
+
+#### Activation of the first convolution layer for the input image:
+
+First activate layer shape: (1, 148, 148, 32)
+
+The fourth channel of the activation of the first layer of the original model:
+
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_2.png?raw=true)
+
+The 7th channel of the activation of the first layer of the original model:
+
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_3.png?raw=true)
+
+#### Visualization of all the activations in the network:
+
+conv2d:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_4.png?raw=true)
+
+max_pooling2d:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_5.png?raw=true)
+
+conv2d_1:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_6.png?raw=true)
+
+max_pooling2d_1:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_7.png?raw=true)
+
+conv2d_2:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_8.png?raw=true)
+
+max_pooling2d_2:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_9.png?raw=true)
+
+conv2d_3:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_10.png?raw=true)
+
+max_pooling2d_3:
+![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_11.png?raw=true)
