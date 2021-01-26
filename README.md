@@ -439,7 +439,7 @@ This technique is much slower and more expensive but allows to use data augmenta
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.3.1_train_with_pretrained_weights_with_finetuning_2.png?raw=true)
 
 ## dlp 5.4 Visualizing what convnets learn
-## dlp 5.4.1 Visualizing intermediate activations
+### dlp 5.4.1 Visualizing intermediate activations
 Run `dlp_5.4.1_visualizing_intermediate_activations.py`
 
 ```
@@ -478,12 +478,11 @@ Total params: 3,453,121
 Trainable params: 3,453,121
 Non-trainable params: 0
 ```
-### Input image. 
+#### Input image. 
 
 inpute shape: (1, 150, 150, 3)
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_1.png?raw=true)
 
-### Extract feature maps
 
 #### Activation of the first convolution layer for the input image:
 
