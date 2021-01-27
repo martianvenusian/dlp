@@ -1,7 +1,3 @@
-# dlp
-#### based on the book `Deep Learning with Python`. Author: Francois Chollet. 
-#### link for the book https://github.com/martianvenusian/books/blob/master/science_and_technology/programming/deep_learning/Deep%20Learning%20with%20Python.pdf
-
 ## dlp 6 Deep Learning for Text and Sequences
 
 ### dlp 6.1 Working with text data
