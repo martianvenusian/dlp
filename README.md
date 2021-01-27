@@ -527,4 +527,5 @@ max_pooling2d_3:
 ### dlp 5.4.2 Visualizing convnet filters
 
 ## dlp 6 Deep Learning for Text and Sequences
-https://github.com/martianvenusian/dlp/README-Deep_Learing_for_Text_and_Sequences.md
+
+![alt text](https://github.com/martianvenusian/dlp/README-Deep_Learing_for_Text_and_Sequences.md?raw=true)
