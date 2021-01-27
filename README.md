@@ -521,3 +521,5 @@ conv2d_3:
 
 max_pooling2d_3:
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_11.png?raw=true)
+
+### dlp 5.4.2 Visualizing convnet filters
