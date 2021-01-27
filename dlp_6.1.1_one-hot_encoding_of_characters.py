@@ -16,6 +16,6 @@ for i, sample in enumerate(samples):
         index = token_index.get(character)
         results[i, j, index] = 1.
 
-print('Shape of result: ',results.shape)
 print('Result: ',results)
+print('Shape of result: ',results.shape)
 
