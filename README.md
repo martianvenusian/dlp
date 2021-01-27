@@ -525,3 +525,6 @@ max_pooling2d_3:
 ![alt text](https://github.com/martianvenusian/dlp/blob/main/images/dlp_5.4.1_visualizing_intermediate_activations_11.png?raw=true)
 
 ### dlp 5.4.2 Visualizing convnet filters
+
+## dlp 6 Deep Learning for Text and Sequences
+https://github.com/martianvenusian/dlp/README-Deep_Learing_for_Text_and_Sequences.md
