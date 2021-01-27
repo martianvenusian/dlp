@@ -528,4 +528,4 @@ max_pooling2d_3:
 
 ## dlp 6 Deep Learning for Text and Sequences
 
-![alt text](https://github.com/martianvenusian/dlp/README-Deep_Learing_for_Text_and_Sequences.md?raw=true)
+[Deep Learning for Text and Sequences](./README-Deep_Learing_for_Text_and_Sequences.md).
