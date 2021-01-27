@@ -1,6 +1,6 @@
-## dlp 6 Deep Learning for Text and Sequences
+# dlp 6 Deep Learning for Text and Sequences
 
-### dlp 6.1 Working with text data
+## dlp 6.1 Working with text data
 
 ### dlp 6.1.1 One-hot encoding of words and characters
 
