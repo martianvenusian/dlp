@@ -4,7 +4,7 @@
 
 
 ## dlp 5: Deep Learning for Computer Vision
-[dlp 5: Deep Learning for Computer Vision](./dlp_5.md).
+[dlp 5: Deep Learning for Computer Vision](https://github.com/martianvenusian/dlp/blob/main/dlp_5/dlp_5.md).
 
 ## dlp 6: Deep Learning for Text and Sequences
 
