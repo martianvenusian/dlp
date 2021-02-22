@@ -12,4 +12,4 @@
 
 ## dlp 8: Denerative Deep Learning
 
-[Generative Deep Learning](./dlp_8.md).
+[Generative Deep Learning](https://github.com/martianvenusian/dlp/dlp_8/dlp_8.md).
