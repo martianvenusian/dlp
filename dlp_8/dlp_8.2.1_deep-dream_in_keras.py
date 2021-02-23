@@ -88,7 +88,7 @@ octave_scale = 1.4
 iterations = 20
 
 max_loss = 10.
-base_image_path = '/home/husan/Downloads/cats_and_dogs_small/test/cats/'
+base_image_path = ''
 img = preprocess_image(base_image_path)
 
 original_shape = img.shape[1:3]
